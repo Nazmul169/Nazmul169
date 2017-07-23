@@ -1,0 +1,94 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, input:focus, textarea:focus, button:focus {
+  outline: 0 solid;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans' , sans-serif;
+    background: #000;
+}
+a:hover { text-decoration: none }
+.section-padding {
+  padding: 80px 0;
+}
+div[class*="service-box-bg-"] {
+  background-size: cover;
+  background-color: #ddd;
+  height: 220px;
+}
+
+.service-box-bg-1 {
+  background: url(../images/service-box-bg-1.jpg);
+}
+.service-box-bg-2 {
+  background: url(../images/service-box-bg-2.jpg);
+}
+.service-box-bg-3 {
+  background: url(../images/service-box-bg-4.jpg);
+}
+.service-box-inner {
+    border: 1px solid rgba(0,0,0,.1);
+    border-top: 0px solid;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.single-service-box {
+    position: relative;
+}
+
+.service-box-more-wrap {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    width: 100%;
+    text-align: center;
+}
+
+.service-box-inner h3 {
+  font-size: 19px;
+font-weight: 600;
+}
+
+a.bordered-btn {display: inline-block;color: #999;font-weight: 700;font-size: 15px;padding: 10px 30px;background: #fff;
+box-shadow: 0px 0px 2px 0.5px rgba(0,0,0,.1);
+border-radius: 5px;}
+
+a.bordered-btn:hover {
+    color: rgba(0,0,0,.6);
+    box-shadow: 0px 0px 2px 0.5px rgba(0,0,0,.2);
+}
+.single-service-box:hover {box-shadow: 0px 0px 2px 0.5px rgba(0,0,0,.1);}
+.single-service-box:hover a.bordered-btn {
+  box-shadow: 0px 0px 2px 0.5px rgba(0,0,0,.2);
+}
+body {
+    text-transform: uppercase;
+    height: 100vh;
+}
+
+p.service-meta {
+    font-size: 13px;
+    color: #999;
+    margin: 0;
+    opacity: .7;
+}
+.section-padding {
+  background: #EBEBEB;
+  margin-top: 5%;
+
+}
